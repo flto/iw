@@ -271,6 +271,7 @@ int set_bitrates(struct nl_msg *msg, int argc, char **argv,
 
 /* sections */
 DECLARE_SECTION(ap);
+DECLARE_SECTION(ath11k);
 DECLARE_SECTION(auth);
 DECLARE_SECTION(cac);
 DECLARE_SECTION(channels);
